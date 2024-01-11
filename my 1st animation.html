@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.div-1 {
+  width: 400px;
+  height: 20px;
+  background: rgb(120, 128, 240);
+  position: relative;
+  animation: mymove 6s infinite;
+  animation-timing-function: linear;
+   
+}
+
+.div-2 {
+  width: 900px;
+  height: 20px;
+  background: rgb(167, 221, 96);
+  position: relative;
+  animation: mymove 15s infinite;
+  animation-timing-function: linear;
+  
+}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 900px;}
+}
+</style>
+</head>
+<body>
+
+<h1>The animation-timing-function Property</h1>
+
+<p>Play an animation :</p>
+
+<div class="div-1">Sultan Ahmed</div>
+<div class="div-2">Sultan Ahmed RasheedSultan Ahmed Rasheed Sultan Ahmed Rasheed</div>
+
+
+</body>
+</html>
